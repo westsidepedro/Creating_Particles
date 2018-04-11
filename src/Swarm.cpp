@@ -11,8 +11,10 @@ namespace cave
     {
 
     Swarm::Swarm() {
-	m_pParticles = new Particle[NPARTICLES]; //make an array from class Particle that holds location data for NPARTICLES
-	// allocate memory and fill it with partical objects
+	m_pParticles = new Particle[NPARTICLES]; /* make an array from class Particle that holds location data for NPARTICLES	*
+						  * allocate memory and fill it with partical objects				*
+						  * each time the particle constructor is ran (NPARTICLES of times)		*
+						  *										*/
     }
 
     Swarm::~Swarm() {
